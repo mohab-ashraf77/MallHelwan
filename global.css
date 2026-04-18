@@ -1,18 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 :root {
     /* Light Theme Colors */
-    --bg-color: #ffffff; /*background color*/
-    --nav-bg: #f8f9febd;   /*navigation background color*/
-    --text-main: #1A202C; /*main text color*/
+    --bg-color: #E8ECEF; /*background color*/
+    --nav-bg: #C4D8E5;   /*navigation background color*/
+    --text-main: #000000; /*main text color*/
     --text-muted: #718096; /*inline muted text color*/
-    --card-bg: #ffffff;    /*card background color*/
+    --card-bg: #C4D8E5;    /*card background color*/
     --border-color: #E2E8F0; 
-    --primary-blue: #2B6AFF; /*hover effects*/
+    --primary-blue: #a7c7e7; /*hover effects buttons icons*/
 }
-
+body{
+    background-color: var(--bg-color);
+}
 [data-theme="dark"] {
     /* Dark Theme Colors */
-    --bg-color: #121826; 
+    --bg-color: #1c2b48; 
     --nav-bg: #121826; 
     --text-main: #F8FAFC;
     --text-muted: #94A3B8;
@@ -32,7 +34,7 @@
     border-radius: 50%;
     padding: 0.6em;
     margin-right: .3em;
-    color: white;
+    color: var(--text-main);
 }
 .icon-bar{
     display: flex;
