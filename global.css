@@ -11,6 +11,8 @@
 }
 body{
     background-color: var(--bg-color);
+    display: grid;
+    grid-template-columns: ;
 }
 [data-theme="dark"] {
     /* Dark Theme Colors */
@@ -21,7 +23,20 @@ body{
     --card-bg: #1E293B;
     --border-color: #334155;
 }
-
+.close-btn{
+    display: none;
+    background-color: var(--nav-bg);
+    color: var(--text-main);
+    height: 3em;
+    border: none;
+}
+[data-theme="dark"] .close-btn{
+    display: block;
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    background-color: var(--bg-color);
+}
 * {
     margin: 0;
     padding: 0;
@@ -48,16 +63,35 @@ body{
 .icon-text h2{
     color:var(--text-main)
 }
+.welcome{
+    background-color: var(--card-bg);
+    color: var(--text-main);
+    text-align: center;
+    margin-top: 1em;
+    padding: 1em;
+}
 .icon-text p{
     color:var(--text-muted);
 }
+
 [data-theme="dark"] .nav-container{
-    height: 100%;
-    max-width: fit-content;
-    width: auto;
-    display: flex;
-    flex-direction: column;
+  height: 100%;
+  width: 0; /* Hidden by default */
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.95); /* Dark semi-transparent */
+  overflow-x: hidden;
+  transition: width 0.5s ease;
 }
+#theme-toggle{
+    border-radius: 0;
+}
+[data-theme="dark"] .nav-container.open {
+  width: fit-content;
+}
+
 [data-theme="dark"] nav ul{
     display: flex;
     flex-direction: column;
@@ -118,4 +152,9 @@ color: var(--text-muted);
 nav a:hover{
     
     background-color: var(--primary-blue);
+}
+
+.close-btn:hover{
+    background-color: var(--primary-blue);
+    border-radius: 1em;
 }
