@@ -11,8 +11,6 @@
 }
 body{
     background-color: var(--bg-color);
-    display: grid;
-    grid-template-columns: ;
 }
 [data-theme="dark"] {
     /* Dark Theme Colors */
@@ -64,7 +62,7 @@ body{
     color:var(--text-main)
 }
 .welcome{
-    background-color: var(--card-bg);
+    background-color: var(--nav-bg);
     color: var(--text-main);
     text-align: center;
     margin-top: 1em;
@@ -157,4 +155,9 @@ nav a:hover{
 .close-btn:hover{
     background-color: var(--primary-blue);
     border-radius: 1em;
+}
+@media(max-width:600px){
+    nav ul{
+        overflow-x: scroll;
+    }
 }
