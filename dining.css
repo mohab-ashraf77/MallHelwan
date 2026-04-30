@@ -100,7 +100,7 @@ header * {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f4f4f4;
+    background-color: var(--bg-color);
 }
 
 #about .title,
@@ -112,13 +112,13 @@ header * {
 
 #about .title h2 {
     font-size: 70px;
-    color: #383848;
+    color: var(--text-main);
     margin-bottom: 20px;
 }
 
 #about .title p {
     font-size: 16px;
-    color: #9a9a9a;
+    color: var(--text-muted);
     font-weight: 600;
 }
 
@@ -133,7 +133,7 @@ header * {
 }
 
 #about .about-content p {
-    color: #9a9a9a;
+    color: var(--text-muted);
     margin-right: 7rem;
     font-weight: 500;
     line-height: 1.6;
@@ -144,7 +144,7 @@ header * {
     padding: 60px 0;
     display: flex;
     justify-content: center;
-    background-color: #ffffff;
+    background-color: var(--bg-color);
 }
 
 #offers h2 {
@@ -194,7 +194,7 @@ header * {
 
 /* MENU */
 #menu {
-    background-color: #ffffff;
+    background-color: var(--bg-color);
     padding: 5rem 0;
      background: url(./imgrtrgrgr.jpg);
     background-size: cover;
@@ -228,7 +228,7 @@ header * {
 }
 
 .menu-item {
-    background: white;
+    background: var(--nav-bg);
     border-radius: 12px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
