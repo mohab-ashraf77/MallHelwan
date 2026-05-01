@@ -1,0 +1,104 @@
+.title h1{
+    padding:5px;
+    margin: 20px;
+    font-size: 85px;
+    text-align: center;
+}
+.section-title {
+    text-align: center;
+    font-size: 50px;
+    padding: 50px;
+}
+.features-tags{
+    text-align: center;
+}
+.tag{
+    padding: 10px 20px;
+    border-radius: 20px; 
+    margin: 5px;
+    display: inline-block;
+    background-color:var(--primary-blue) ;
+    font-size: 21px;
+}
+.movies-section {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    width: 85%;
+    max-width: 1200px;
+    padding: 40px;
+    font-size: 1.2rem;
+    margin: 30px auto;
+}
+.movie-card {
+  width: 500px;
+  max-width: 90%;
+  margin: 60px auto;
+  background: var(--border-color);
+  border-radius: 30px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 20px 40px var(--primary-blue);
+}
+.movie-poster {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+.name {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  margin: 15px 0;
+}
+
+.detail-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 15px;
+}
+.show-title {
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+.showtimes {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.showtimes button {
+  padding: 12px 18px;
+  border-radius: 15px;
+  border: 1px solid var(--primary-blue);
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.showtimes button:hover {
+  background-color: var(--border-color);
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px;
+}
+.pricing-grid{
+    text-align: center;
+    background-color: var(--border-color);
+    height: 500px;
+    padding: 20px;
+    border-radius: 100px;
+    margin: 250px auto;
+}
+.price-value{
+    margin: 60px auto;
+    font-size: 30px;
+}
