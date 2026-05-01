@@ -1,0 +1,217 @@
+.imge{
+    width:100%;
+    aspect-ratio: 16 / 9;
+    height: 500px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     
+}
+.imge::before{
+    content: "";
+    position: absolute;
+    width: 100%;           
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
+              url(img9.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-self: center;
+    justify-self: center;
+    border-radius: 2em;
+    z-index: -1;
+    box-shadow:0px 0px 15px rgba(0, 0, 0, 0.8);
+}
+.imge-container{
+    justify-self: center;
+    align-self: center;
+    margin: 1em;
+    width: 90%;
+    height: auto;
+    position: relative;
+    
+}
+.imge-text{
+    font: 1.3em sans-serif;
+    text-align: center;
+    color: white;
+}
+.x{
+    text-align: center;
+    font-size: medium;
+}
+.header{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+.cards-container{
+    display: grid;
+    width: 90%;
+    grid-template-columns: 1fr 1fr 1fr 1fr  ;
+    padding:1em;
+    height: 100%;
+    gap: 0.5em;
+
+}
+h1{
+    color: white;
+
+}
+.cards-container p{
+    color: white;
+    padding: 2em;
+    font-size: small;
+    text-align: left;
+
+}
+.cards1{
+    padding: 3em;
+    margin: 0em;
+    border-style: solid;
+    border-width: 2px ;
+    border-radius: 1em;
+    transition: 0.3s;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3))
+    ,url(img99.png);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+    transition: 0.3s;
+}
+.cards2{
+    padding: 3em;
+    margin: 0em;
+    border-style: solid;
+    border-width: 2px ;
+    border-radius: 1em;
+    transition: 0.3s;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3))
+    ,url(kids.jpg);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8);
+    transition: 0.3;
+}
+.cards3{
+     padding: 3em;
+    margin: 0em;
+    border-style: solid;
+    border-width: 2px ;
+    border-radius: 1em;
+    transition: 0.3s;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3))
+    ,url(boww.png);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8);
+    transition: 0.3;
+    
+} 
+.cards4{
+    padding: 3em;
+    margin: 0em;
+    border-style: solid;
+    border-width: 2px ;
+    border-radius: 1em;
+    transition: 0.3s;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3))
+    ,url(img11.png);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8);
+    transition: 0.3; 
+}
+.det-container{
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+     width: 90%;
+     gap: 2em;
+     padding: 1em;
+     
+     
+}
+.card{
+    border-radius: 1em;
+    padding: 1em;
+    justify-content: center;
+    margin: 1em 0em 0em 5em;
+    width: 100%;
+    background-color: var(--card-bg);    
+    align-content: center;
+    border-style: solid;
+    border-color: var(--text-muted);
+    transition: 0.3s;
+}
+.into-card{
+   justify-content: space-between;
+   display: flex; 
+}
+h2{
+   font-family: Arial, Helvetica, sans-serif;
+}
+span{
+    display: flex;
+}
+h3{
+    display: flex;
+    font-size: medium;
+    gap: 1em;
+}
+[data-theme="dark"] .title ,.card ,.sec{
+    color: var(--text-main);
+    
+}
+[data-theme="dark"] .card ,.sec{
+    color: var(--text-main);
+    background-color: var(--card-bg);
+}
+
+.card:hover{
+    transform: scale(1.03,1.03);
+}
+.cards1:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+}
+.cards2:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+}
+.cards3:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+}
+.cards4:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+}
+
+.filter-buttons {
+  text-align: center;
+  margin: 25px 0;
+}
+
+.filter-btn {
+  padding: 10px 22px;
+  margin: 6px;
+  border: none;
+  border-radius: 25px;
+  background-color: #ddd;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.filter-btn.active,
+.filter-btn:hover {
+  background-color: #1e3a5f;
+  color: white;
+}
+
+.hide {
+  display: none;
+}
+
+
+
+    
+    
+
