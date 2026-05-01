@@ -121,7 +121,7 @@ header * {
 
 #about .title p {
     font-size: 16px;
-    color: var(--text-muted);
+    color: var(--text-main);
     font-weight: 600;
 }
 
@@ -136,7 +136,7 @@ header * {
 }
 
 #about .about-content p {
-    color: var(--text-muted);
+    color: var(--text-main);
     margin-right: 7rem;
     font-weight: 500;
     line-height: 1.6;

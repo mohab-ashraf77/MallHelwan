@@ -44,3 +44,9 @@
     transition: 1s;
     cursor:pointer;
 }
+.stores-banner img{
+    display: block;
+    justify-self: center;
+    width: 90%;
+    margin-top: 1em;
+}
