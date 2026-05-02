@@ -9,6 +9,11 @@
     padding-top: 15px;
     padding-bottom: 15px;
 }
+.stores-banner img{
+    display: block;
+    justify-self: center;
+    width: 90%;
+}
 .stores-search{
     text-align: center;
     margin-top: 30px;
@@ -20,6 +25,21 @@
     border: 1px solid #ccc;
     border-radius: 10px;
     outline: none;
+}
+.store-card img {
+    display: block;
+    justify-self:center;
+    padding-top: 0px;
+    width: 90%;
+    height: 70%;
+}
+.store-card p{
+    margin-top: 20px;
+    margin-bottom: 35px;
+    font-size: 16px;
+}
+.store-card{
+    margin: 15px;
 }
 .store-category {
     margin-bottom: 35px;
@@ -43,10 +63,4 @@
     transform: translateY(-10px);
     transition: 1s;
     cursor:pointer;
-}
-.stores-banner img{
-    display: block;
-    justify-self: center;
-    width: 90%;
-    margin-top: 1em;
 }
