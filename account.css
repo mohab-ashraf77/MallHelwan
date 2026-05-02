@@ -1,0 +1,154 @@
+
+.main-wrapper {
+    background-image: url(mm.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+
+.div {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.login-container {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+
+    width: 400px;
+    padding: 30px;
+    text-align: center;
+
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.3);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+}
+
+h1 {
+    font-size: 2.2rem;
+    margin-bottom: 30px;
+    color:var(--primary-blue);
+}
+.welcome-section p {
+color: var(--bg-color);
+}
+
+
+.input-group {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    color: white;
+    font-weight: bold;
+}
+
+
+.input-box {
+    background-color: rgba(255, 255, 255, 0.25);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+
+.input-box input {
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    width: 100%;
+}
+
+.input-box input::placeholder {
+    color: rgba(255,255,255,0.7);
+}
+
+
+.input-box i {
+    margin-right: 10px;
+    color: white;
+}
+
+
+.extra-options {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+    color: white;
+}
+
+.forgot-pass {
+    color: white;
+    text-decoration: none;
+}
+
+
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    border-radius: 25px;
+    border: none;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.login-btn:hover {
+    background-color: #ddd;
+}
+
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+.icon {
+    width: 45px;
+    height: 45px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.facebook { color: #3b5998; }
+.google { color: #db4437; }
+
+
+.welcome-section {
+    text-align: center;
+    color: white;
+    padding: 30px;
+}
+.input-box.error {
+    border: 2px solid #ff4d4d;
+}
+
+.input-box.success {
+    border: 2px solid #4CAF50;
+}
+
+.error-message {
+    color: #ff4d4d;
+    font-size: 0.8rem;
+    margin-top: 5px;
+    display: block;
+}
