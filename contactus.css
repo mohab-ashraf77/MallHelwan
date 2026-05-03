@@ -32,6 +32,7 @@
   background: var(--card-bg);
   border-radius: 12px;
   padding: 1.2rem 1.5rem;
+  gap: 1em;
   border: 1px solid var(--border-color);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -233,4 +234,10 @@
   border-top: 1px solid var(--border-color);
   color: var(--text-muted);
   background: var(--bg-color);
+}
+.icon-circle {
+    color: #007bff;
+    font-size: 3em;
+
+
 }

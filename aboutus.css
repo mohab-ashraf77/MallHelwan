@@ -105,7 +105,12 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
 }
-
+.value-card:hover{
+    transform: translateY(-5px);
+}
+.info-card:hover{
+     transform: translateY(-5px);
+}
 .value-card {
     background: var(--card-bg);
     padding: 30px;
@@ -119,6 +124,7 @@
     font-size: 20px;
     color: var(--text-main);
     margin-bottom: 15px;
+    
 }
 
 .value-card p {
@@ -141,6 +147,7 @@
     border-radius: 15px;
     box-shadow: none;
     border: none;
+    transition: 0.3s;
 }
 
 .info-card h3 {

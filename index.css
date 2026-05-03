@@ -106,7 +106,10 @@
 .sec:hover{
     transform: scale(1.1);
 }
-@media(max-width:600px){
+.card>.material-symbols-outlined{
+    color: #007bff;
+}
+@media (max-width:600px){
     .strip{
         gap: 1em;
     }

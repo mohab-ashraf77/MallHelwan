@@ -18,14 +18,12 @@
 
 
 .login-container {
-    background: rgba(255, 255, 255, 0.15);
+    background: var(--card-bg);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
-
-    width: 400px;
+    width: 70%;
     padding: 30px;
     text-align: center;
-
     border-radius: 20px;
     border: 1px solid rgba(255,255,255,0.3);
     box-shadow: 0 8px 32px rgba(0,0,0,0.3);
@@ -34,10 +32,10 @@
 h1 {
     font-size: 2.2rem;
     margin-bottom: 30px;
-    color:var(--primary-blue);
+    color:var(--text-main);
 }
 .welcome-section p {
-color: var(--bg-color);
+color: var(--text-muted);
 }
 
 
@@ -47,7 +45,7 @@ color: var(--bg-color);
 }
 
 .input-group label {
-    color: white;
+    color: var(--text-main);
     font-weight: bold;
 }
 
@@ -66,18 +64,18 @@ color: var(--bg-color);
     background: none;
     border: none;
     outline: none;
-    color: white;
+    color: var(--text-main);
     width: 100%;
 }
 
 .input-box input::placeholder {
-    color: rgba(255,255,255,0.7);
+    color: var(--text-main);
 }
 
 
 .input-box i {
     margin-right: 10px;
-    color: white;
+    color: var(--text-main);
 }
 
 
@@ -85,11 +83,11 @@ color: var(--bg-color);
     display: flex;
     justify-content: space-between;
     margin: 15px 0;
-    color: white;
+    color: var(--text-main);
 }
 
 .forgot-pass {
-    color: white;
+    color: var(--text-main);
     text-decoration: none;
 }
 
