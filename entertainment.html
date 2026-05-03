@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -10,7 +10,7 @@
     <script src="global.js"></script>
 </head>
 <body>
-      <div class="icon-bar">
+           <div class="icon-bar">
             <i class="material-symbols-outlined">
                 local_mall
             </i>
@@ -26,7 +26,7 @@
             <li><a href="stores.html">Stores</a> </li>
             <li><a href="dining.html">Dining</a> </li>
             <li><a href="cinema.html">Cinema</a></li>
-            <li><a href="entertainment.html"class="active">entertainment</a></li>
+            <li><a href="entertainment1.html"class="active">entertainment</a></li>
             <li><a href="aboutus.html">About US</a> </li>
             <li><a href="ContactUS.html">Contact US</a> </li>
             <li><a href="Account.html">Account</a> </li>
@@ -37,13 +37,16 @@
     </nav>
     <div class="welcome">
         <h1>Entertainment</h1>
-        <button class="close-btn" onclick="toggleNav()"><i class="material-symbols-outlined">menu</i></button>
     </div>
+        <button class="close-btn" onclick="toggleNav()"><i class="material-symbols-outlined">
+            menu</i></button>
+
     <div class="imge-container">
         <div class="imge">
             <div class="imge-text">
-        <h1>Step Into a World of Endless Fun</h1>
-        <p class="x">Enjoy exciting games, family activities, and unforgettable moments for all ages.</p>
+        <h1>Welcome to the Ultimate Entertainment Zone</h1>
+        <p class="x">Enjoy exciting games, family activities, and unforgettable
+             moments for all ages.</p>
                 <button class="btn"><a href="aboutus.html"></a></button>
             </div>
         </div>
@@ -55,32 +58,57 @@
      <button class="filter-btn" data-filter="kids">Kids</button>
      <button class="filter-btn" data-filter="bowling">Bowling</button>
      <button class="filter-btn" data-filter="events">Events</button>
+     <button class="filter-btn" data-filter="VR">VR</button>
+     <button class="filter-btn" data-filter="gifts">gifts</button>
    </div>
-    <main class="cards-container">
-        <div class="cards1 card" data-category="games">
-         <h1>Gaming Zone</h1>
-         <p>Here you can find happiness, gaming zone offers VR games, racing simulators, 
-            and competitive arcade challenges </p>
-        </div>
-         <div class="cards2 card" data-category="kids">
-         <h1>Kids Play Area</h1>
-         <p>The kids area offers safe, colorful games, soft play zones, and fun activities
-             that bring joy and happiness for children</p>
-         </div>
-          <div class="cards3 card" data-category="bowling">
-         <h1>Bowling Alley</h1>
-         <p>The bowling area offers a fun and exciting experience for 
-            friends and families with modern lanes and a lively atmosphere.</p>
-         </div>
-          <div class="cards4 card" data-category="events">
-         <h1>Live Events</h1>
-         <p>Live events offer an exciting atmosphere with music,
-             shows, and unforgettable moments.</p>
-         </div>
-    </main>
-
- <main class="det-container">
+   <div class="cards-container">
     <div class="card">
+      <img src="img11.jpg">
+      <div class="card-content">
+      <h3>kids area</h3>
+      <p> exciting games for your kids.</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="img3.jpg" >
+      <div class="card-content">
+      <h3>Bowling</h3>
+      <p>Challenge your friends and enjoy a competitive bowling experience.</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="img6.jpg">
+      <div class="card-content">
+      <h3>VR Zone</h3>
+      <p>Step into virtual reality and explore thrilling digital worlds.</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="img2.jpg">
+      <div class="card-content">
+      <h3>Gifts store</h3>
+      <p>the more you play the more you win</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="img4.jpg" >
+      <div class="card-content">
+      <h3>Live events</h3>
+      <p>Enjoy music, shows, and unforgettable live entertainment moments.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="img5.jpg">
+      <div class="card-content">
+        <h3>Fun games</h3>
+        <p>fun games like you have never seen before</p>
+      </div>
+    </div>
+   </div>
+
+    <main class="det-container">
+    <div class="cards">
          <h2>Operating Hours</h2>
         <div class="into-card">    
          <span>Monday - Thursday</span>
@@ -99,7 +127,7 @@
 
         </div>
 
-        <div class="card">
+        <div class="cards">
          <h2>Pricing</h2>
           <div class="into-card">    
            <span>Gaming zone <h5>(per hour)</h5></span>
@@ -122,20 +150,23 @@
         </div>
 
          </div>
-         <div class="card">
+         <div class="cards">
          <h2>Upcoming Events</h2>
          <h3>Join us for special events and celebrations throughout the year</h3>
          <span class="into-card">Gaming Tournament - May 1</span>
          <span class="into-card">Kids Magic Show - Every Sunday</span>
          </div>
 
-          <div class="card">
+          <div class="cards">
          <h2>Previous Events</h2>
          <h3>Look back on some of our events</h3>
          <span class="into-card">Cario chess consert - Jun 8</span>
          </div>
       </main>
 
+    <footer class="light-only bottom-footer">
+                <p>&copy; 2026 Helwan Mall. All rights reserved.</p>
+            </footer>
     <footer>
         &copy; 2026 Helwan Mall. All rights reserved.
     </footer>
