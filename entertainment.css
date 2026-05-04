@@ -44,7 +44,7 @@
 .header{
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    color: black;
+    color: var(--text-main);
     padding-top: 1em;
 }
 .cards-container {
@@ -124,10 +124,12 @@
     border-style: solid;
     border-color: var(--text-muted);
     transition: 0.3s;
+    color: var(--text-main);
 }
 .into-card{
    justify-content: space-between;
    display: flex; 
+   color: var(--text-main);
 }
 h2{
    font-family: Arial, Helvetica, sans-serif;
