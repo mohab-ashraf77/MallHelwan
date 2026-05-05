@@ -13,7 +13,6 @@
 a{
     text-decoration-line: none;
 }
-/* ===== HEADER ===== */
 header {
     height: 100vh;
     background: url(./ChatGPT\ Image\ May\ 1\,\ 2026\,\ 06_01_39\ PM.png);
@@ -62,7 +61,6 @@ header * {
   color:var(--primary-blue);
 }
 
-/* BUTTONS */
 .btn {
     display: inline-block;
     padding: 15px 30px;
@@ -89,13 +87,11 @@ header * {
     box-shadow: 0 1px 6px rgba(54, 214, 226, 0.963);
 }
 
-/* CONTAINER */
 .contener {
     max-width: 1100px;
     margin: auto;
 }
 
-/* ABOUT */
 #about {
     height: 100vh;
     display: flex;
@@ -142,7 +138,6 @@ header * {
     line-height: 1.6;
 }
 
-/* OFFERS */
 #offers {
     padding: 60px 0;
     display: flex;
@@ -196,7 +191,6 @@ header * {
     border-radius: 50%;
 }
 
-/* MENU */
 #menu {
     background-color: var(--bg-color);
     padding: 5rem 0;
