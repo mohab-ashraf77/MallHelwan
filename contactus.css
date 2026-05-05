@@ -40,7 +40,7 @@
 .info-box:hover {
   transform: translateY(-3px);
   background: var(--primary-blue);
-  color: rgb(0, 0, 0); /* --- Does not want to apply, idk why?? ---*/
+  color: rgb(0, 0, 0);
 }
 
 .info-icon {
