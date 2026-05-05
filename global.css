@@ -40,7 +40,7 @@ body{
     padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
-    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth color transition */
+    transition: background-color 0.3s ease, color 0.3s ease; 
 }
 .icon-bar>.material-symbols-outlined{
     background-color: var(--primary-blue);
@@ -74,12 +74,11 @@ body{
 
 [data-theme="dark"] .nav-container{
   height: 100%;
-  width: 0; /* Hidden by default */
+  width: 0; 
   position: fixed;
   z-index: 1000;
   top: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.95); /* Dark semi-transparent */
   overflow-x: hidden;
   transition: width 0.5s ease;
 }
